@@ -1,0 +1,6 @@
+#include "SharedCreatureData.h"
+#include "SharedItemData.h"
+#include "SharedStaticObjectData.h"
+#include "SharedSSQInfo.h"
+#include "SharedPledgeData.h"
+#include "SharedPartyData.h"

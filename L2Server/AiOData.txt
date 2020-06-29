@@ -1,0 +1,48 @@
+global_setting_begin	enabled=1	can_use_outside_peacezone=1	can_move_outside_peacezone=1	global_setting_end
+
+//expire_time - time in seconds how long player will have AiO status, 0 means infinity time
+//minimum_level - minimum player's level to be able to acquire AiO status
+//price_id/price_amount - item id requriement - these items will be consumed
+//gift_id/gift_amount - this is a reward for acquiring AiO status
+
+aio_1_begin
+setting_begin	expire_time=3600 minimum_level=80	price_id=57	price_amount=100000	gift_id=7575	gift_amount=1	setting_end
+//wind walk
+skill_begin	skill_id=1204	skill_level=2	abnormal_time=3600	party_buff=0	skill_end
+//shield
+skill_begin	skill_id=1040	skill_level=3	abnormal_time=3600	party_buff=0	skill_end
+//might
+skill_begin	skill_id=1068	skill_level=3	abnormal_time=3600	party_buff=0	skill_end
+//Mental Shield
+skill_begin	skill_id=1035	skill_level=4	abnormal_time=3600	party_buff=0	skill_end
+//Bless The Body
+skill_begin	skill_id=1045	skill_level=6	abnormal_time=3600	party_buff=0	skill_end
+//Bless The Soul
+skill_begin	skill_id=1048	skill_level=6	abnormal_time=3600	party_buff=0	skill_end
+//Magic Barrier
+skill_begin	skill_id=1036	skill_level=2	abnormal_time=3600	party_buff=0	skill_end
+aio_1_end
+
+aio_2_begin
+setting_begin	expire_time=0 minimum_level=80	price_id=57	price_amount=100000	gift_id=7575	gift_amount=1	setting_end
+//wind walk
+skill_begin	skill_id=1204	skill_level=2	abnormal_time=3600	party_buff=0	skill_end
+//shield
+skill_begin	skill_id=1040	skill_level=3	abnormal_time=3600	party_buff=0	skill_end
+//might
+skill_begin	skill_id=1068	skill_level=3	abnormal_time=3600	party_buff=0	skill_end
+//Mental Shield
+skill_begin	skill_id=1035	skill_level=4	abnormal_time=3600	party_buff=0	skill_end
+//Bless The Body
+skill_begin	skill_id=1045	skill_level=6	abnormal_time=3600	party_buff=0	skill_end
+//Bless The Soul
+skill_begin	skill_id=1048	skill_level=6	abnormal_time=3600	party_buff=0	skill_end
+//Magic Barrier
+skill_begin	skill_id=1036	skill_level=2	abnormal_time=3600	party_buff=0	skill_end
+//Elemental Protection
+skill_begin	skill_id=1352	skill_level=1	abnormal_time=3600	party_buff=0	skill_end
+//Berserker Spirit
+skill_begin	skill_id=1062	skill_level=2	abnormal_time=3600	party_buff=0	skill_end
+//Vampiric Rage
+skill_begin	skill_id=1268	skill_level=4	abnormal_time=3600	party_buff=0	skill_end
+aio_2_end
